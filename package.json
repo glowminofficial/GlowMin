@@ -1,0 +1,83 @@
+{
+  "name": "glowmin",
+  "version": "1.0.0",
+  "description": "GlowMin - A vibrant Solana-based meme token shining bright for a minute!",
+  "main": "cli-scripts/deploy-metadata.js",
+  "scripts": {
+    "start": "node cli-scripts/deploy-metadata.js",
+    "deploy": "node cli-scripts/deploy-metadata.js",
+    "mint": "node cli-scripts/mint-token.js",
+    "liquidity": "node cli-scripts/create-liquidity.js",
+    "deploy-all": "./cli-scripts/deploy-all.sh",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint cli-scripts/**/*.js",
+    "format": "prettier --write cli-scripts/**/*.js metadata/**/*.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlowMin/glowmin.git"
+  },
+  "keywords": [
+    "solana",
+    "blockchain",
+    "cryptocurrency",
+    "meme-token",
+    "defi",
+    "raydium",
+    "liquidity-pool",
+    "staking",
+    "yield-farming"
+  ],
+  "author": "ALFANESTLABS <contact@alfanestlabs.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GlowMin/glowmin/issues"
+  },
+  "homepage": "https://glowmin.alfanestlabs.xyz",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.11",
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "dotenv": "^16.3.1",
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "jest": "^29.7.0",
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  },
+  "bin": {
+    "glowmin": "./cli-scripts/deploy-metadata.js"
+  },
+  "files": [
+    "cli-scripts/",
+    "metadata/",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://glowmin.alfanestlabs.xyz"
+  },
+  "social": {
+    "website": "https://glowmin.alfanestlabs.xyz",
+    "discord": "https://discord.gg/tA58uPbf",
+    "twitter": "https://x.com/GlowMinOfficial",
+    "telegram": "https://t.me/GlowMinOfficialToken",
+    "instagram": "https://www.instagram.com/glowminofficial/"
+  }
+}

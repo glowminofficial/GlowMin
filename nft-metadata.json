@@ -1,0 +1,181 @@
+{
+  "collection": {
+    "name": "GlowMin NFT Collection",
+    "family": "GlowMin",
+    "description": "Official GlowMin NFT collection featuring the magical GLOWMINU mascot and community members.",
+    "image": "https://glowmin.alfanestlabs.xyz/wp-content/images/GLOWMIN-NFT.png",
+    "external_url": "https://glowmin.alfanestlabs.xyz/nft",
+    "attributes": [
+      {
+        "trait_type": "Collection Type",
+        "value": "Community NFT"
+      },
+      {
+        "trait_type": "Blockchain",
+        "value": "Solana"
+      },
+      {
+        "trait_type": "Total Supply",
+        "value": "10,000"
+      },
+      {
+        "trait_type": "Mint Price",
+        "value": "0.1 SOL"
+      }
+    ]
+  },
+  "nft_template": {
+    "name": "GlowMin NFT #{{id}}",
+    "symbol": "GLOWNFT",
+    "description": "A unique GlowMin NFT featuring GLOWMINU and special traits. Each NFT represents membership in the GlowMin community.",
+    "image": "https://glowmin.alfanestlabs.xyz/wp-content/images/nft/{{id}}.png",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "{{background}}"
+      },
+      {
+        "trait_type": "GLOWMINU Style",
+        "value": "{{glowminu_style}}"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "{{accessory}}"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "{{rarity}}"
+      },
+      {
+        "trait_type": "Generation",
+        "value": "{{generation}}"
+      }
+    ]
+  },
+  "traits": {
+    "background": [
+      {
+        "name": "Cosmic Purple",
+        "rarity": "Common",
+        "probability": 30
+      },
+      {
+        "name": "Neon Cyan",
+        "rarity": "Common",
+        "probability": 25
+      },
+      {
+        "name": "Galaxy Blue",
+        "rarity": "Uncommon",
+        "probability": 20
+      },
+      {
+        "name": "Solar Gold",
+        "rarity": "Rare",
+        "probability": 15
+      },
+      {
+        "name": "Rainbow Aurora",
+        "rarity": "Epic",
+        "probability": 8
+      },
+      {
+        "name": "Diamond Shine",
+        "rarity": "Legendary",
+        "probability": 2
+      }
+    ],
+    "glowminu_style": [
+      {
+        "name": "Classic Glow",
+        "rarity": "Common",
+        "probability": 35
+      },
+      {
+        "name": "Electric Spark",
+        "rarity": "Common",
+        "probability": 25
+      },
+      {
+        "name": "Mystical Aura",
+        "rarity": "Uncommon",
+        "probability": 20
+      },
+      {
+        "name": "Golden Shine",
+        "rarity": "Rare",
+        "probability": 12
+      },
+      {
+        "name": "Cosmic Burst",
+        "rarity": "Epic",
+        "probability": 6
+      },
+      {
+        "name": "Divine Light",
+        "rarity": "Legendary",
+        "probability": 2
+      }
+    ],
+    "accessory": [
+      {
+        "name": "None",
+        "rarity": "Common",
+        "probability": 40
+      },
+      {
+        "name": "Shining Crown",
+        "rarity": "Common",
+        "probability": 20
+      },
+      {
+        "name": "Crypto Glasses",
+        "rarity": "Uncommon",
+        "probability": 15
+      },
+      {
+        "name": "Diamond Chain",
+        "rarity": "Rare",
+        "probability": 12
+      },
+      {
+        "name": "Lightning Wings",
+        "rarity": "Epic",
+        "probability": 8
+      },
+      {
+        "name": "Cosmic Orb",
+        "rarity": "Legendary",
+        "probability": 5
+      }
+    ]
+  },
+  "rarity_distribution": {
+    "Common": 60,
+    "Uncommon": 25,
+    "Rare": 10,
+    "Epic": 4,
+    "Legendary": 1
+  },
+  "utility": {
+    "staking_rewards": {
+      "enabled": true,
+      "multiplier": "1.5x",
+      "description": "Holders earn extra staking rewards"
+    },
+    "governance": {
+      "enabled": true,
+      "voting_power": "1 vote per NFT",
+      "description": "Participate in community governance"
+    },
+    "exclusive_access": {
+      "enabled": true,
+      "features": [
+        "Private Discord channels",
+        "Early access to new features",
+        "Exclusive airdrops",
+        "VIP community events"
+      ]
+    }
+  }
+}

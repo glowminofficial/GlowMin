@@ -1,0 +1,90 @@
+{
+  "name": "GlowMin",
+  "symbol": "GLOWMIN",
+  "description": "GlowMin is a vibrant Solana-based meme token shining bright for a minute! Join the GLOWMINU spirit and experience fast, fun, and rewarding DeFi on Solana.",
+  "image": "https://glowmin.alfanestlabs.xyz/wp-content/images/GLOWMIN.png",
+  "external_url": "https://glowmin.alfanestlabs.xyz",
+  "attributes": [
+    {
+      "trait_type": "Blockchain",
+      "value": "Solana"
+    },
+    {
+      "trait_type": "Token Type",
+      "value": "Meme Token"
+    },
+    {
+      "trait_type": "Total Supply",
+      "value": "100,000,000"
+    },
+    {
+      "trait_type": "Mascot",
+      "value": "GLOWMINU"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Shine Bright, Live Intense"
+    },
+    {
+      "trait_type": "Liquidity Pool",
+      "value": "40% (Locked 2 years)"
+    },
+    {
+      "trait_type": "Community",
+      "value": "30%"
+    },
+    {
+      "trait_type": "Team",
+      "value": "15%"
+    },
+    {
+      "trait_type": "Marketing",
+      "value": "10%"
+    },
+    {
+      "trait_type": "Reserve",
+      "value": "5%"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://glowmin.alfanestlabs.xyz/wp-content/images/GLOWMIN.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "ALFANESTLABS_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "GlowMin Token Collection",
+    "family": "GlowMin"
+  },
+  "social": {
+    "website": "https://glowmin.alfanestlabs.xyz",
+    "discord": "https://discord.gg/tA58uPbf",
+    "twitter": "https://x.com/GlowMinOfficial",
+    "telegram": "https://t.me/GlowMinOfficialToken",
+    "instagram": "https://www.instagram.com/glowminofficial/"
+  },
+  "features": [
+    "Staking Rewards",
+    "Yield Farming",
+    "P2P Trading",
+    "Analytics Dashboard",
+    "Community Governance"
+  ],
+  "deployment": {
+    "network": "mainnet-beta",
+    "cluster": "solana",
+    "program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "mint_address": "FdaWtGGTfnWq8MU9ToCGBTQspuXhxyGpRjqY7M55V62n",
+    "mint_authority": "MINT_AUTHORITY_KEYPAIR",
+    "freeze_authority": "FREEZE_AUTHORITY_KEYPAIR"
+  }
+}
